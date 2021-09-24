@@ -1,7 +1,8 @@
 {
-  "name": "node-scripts",
+  "name": "unzip",
   "version": "1.0.0",
-  "description": "",
+  "author": "Illia Raietskyi",
+  "description": "Unzip a heavy archive with a list of directories",
   "main": "index.js",
   "engines": {
     "node": ">14"
@@ -10,11 +11,9 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "decompress": "^4.2.1",
-    "decompress-unzip": "^4.0.1",
-    "extract-zip": "^2.0.1"
+    "decompress-unzip": "^4.0.1"
   }
 }
